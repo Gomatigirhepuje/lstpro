@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36" started-at="2019-05-14T07:37:17Z" finished-at="2019-05-14T07:37:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36" started-at="2019-05-14T07:37:17Z" finished-at="2019-05-14T07:37:17Z">
+      <class name="groupId.RestAPITest">
+        <test-method status="PASS" signature="elementsUI()[pri:0, instance:groupId.RestAPITest@136f0f5]" name="elementsUI" duration-ms="9" started-at="2019-05-14T13:07:17Z" finished-at="2019-05-14T13:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUI -->
+        <test-method status="PASS" signature="postJira()[pri:0, instance:groupId.RestAPITest@136f0f5]" name="postJira" duration-ms="0" started-at="2019-05-14T13:07:17Z" finished-at="2019-05-14T13:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+      </class> <!-- groupId.RestAPITest -->
+      <class name="groupId.SeleniumTest">
+        <test-method status="PASS" signature="browserAutomation()[pri:0, instance:groupId.SeleniumTest@1a03464]" name="browserAutomation" duration-ms="0" started-at="2019-05-14T13:07:17Z" finished-at="2019-05-14T13:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomation -->
+        <test-method status="PASS" signature="elementsUI()[pri:0, instance:groupId.SeleniumTest@1a03464]" name="elementsUI" duration-ms="0" started-at="2019-05-14T13:07:17Z" finished-at="2019-05-14T13:07:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUI -->
+      </class> <!-- groupId.SeleniumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
