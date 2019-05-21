@@ -1,5 +1,6 @@
 package groupId;
 
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class AppiumTest {
@@ -15,6 +16,11 @@ public class AppiumTest {
 	
 	@Test
 	public void ME(){
+	System.out.println("I");
+	}
+	
+	@BeforeTest
+	public void Iam(){
 	System.out.println("I");
 	}
 
